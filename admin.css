@@ -1,0 +1,122 @@
+.login,
+.login * {
+  box-sizing: border-box;
+}
+.login {
+  background: var(--black, #27262c);
+  width: 1728px;
+  height: 1117px;
+  position: relative;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: var(--praimery, #4044ed);
+  border-radius: 50%;
+  width: 914px;
+  height: 914px;
+  position: absolute;
+  left: -585px;
+  top: 102px;
+}
+.ellipse-2 {
+  background: var(--secendry, #93dfff);
+  border-radius: 50%;
+  width: 76px;
+  height: 76px;
+  position: absolute;
+  left: 118px;
+  top: 243px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.subtract {
+  position: absolute;
+  left: 1098px;
+  top: -140.86px;
+  transform: translate(179.99px, 140.86px);
+  overflow: visible;
+}
+.polygon-1 {
+  position: absolute;
+  left: 1248px;
+  top: 920.08px;
+  transform: translate(120.37px, -117.54px);
+  overflow: visible;
+}
+.polygon-2 {
+  position: absolute;
+  left: 1353.14px;
+  top: 1014.14px;
+  transform: translate(120.37px, -117.54px);
+  overflow: visible;
+}
+.polygon-3 {
+  position: absolute;
+  left: 1462.24px;
+  top: 1106.97px;
+  transform: translate(120.37px, -117.54px);
+  overflow: visible;
+}
+.line-1 {
+  border-style: solid;
+  border-color: var(--withe, #ffffff);
+  border-width: 2px 0 0 0;
+  width: 531px;
+  height: 0px;
+  position: absolute;
+  left: 599px;
+  top: 559px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: var(--withe, #ffffff);
+  border-width: 2px 0 0 0;
+  width: 531px;
+  height: 0px;
+  position: absolute;
+  left: 599px;
+  top: 659px;
+}
+.login2 {
+  color: var(--withe, #ffffff);
+  text-align: left;
+  font: 400 96px "Roboto", sans-serif;
+  position: absolute;
+  left: 599px;
+  top: 289px;
+}
+.user-id {
+  color: var(--graye, #999999);
+  text-align: left;
+  font: 400 24px "Roboto", sans-serif;
+  position: absolute;
+  left: 599px;
+  top: 513px;
+}
+.password {
+  color: var(--graye, #999999);
+  text-align: left;
+  font: 400 24px "Roboto", sans-serif;
+  position: absolute;
+  left: 599px;
+  top: 613px;
+}
+.frame-1 {
+  background: var(--praimery, #4044ed);
+  padding: 10px 239px 10px 239px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 599px;
+  top: 723px;
+}
+.login3 {
+  color: var(--withe, #ffffff);
+  text-align: left;
+  font: 400 24px "IRANSansXFaNum", sans-serif;
+  position: relative;
+}
+
